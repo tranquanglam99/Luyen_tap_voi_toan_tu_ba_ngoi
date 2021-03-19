@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chương trình nhập giá trị chuỗi cho message</title>
+</head>
+<body>
+    
+    <script>
+
+        // Khai báo biến.
+        var login = prompt("Hãy nhập một chuỗi");
+        var message;
+
+        // So sánh giá trị message với  Employee, Director, ""
+        if (login == "Employee") {
+            message = "Hello";
+        } else if (login == "Director") {
+            message = "Greetings";
+        } else if (login == "") {
+            message = "No login";
+        } else {
+            message = "";
+        }
+
+        // HIển thị thông báo
+        alert(message);
+
+    </script>
+
+</body>
+</html>
